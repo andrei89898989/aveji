@@ -1,0 +1,51 @@
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer__info p
+{
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.footer__socialmedia span
+{
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.footer__politic-laptopvers { display: none; }
+
+.footer__politic
+{
+    font-size: 16px;
+    line-height: 140%;
+}
+
+@media (min-width: 1400px)
+{
+     .footer
+    {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+
+    .footer__politic { display: none; }
+
+    .footer__politic-laptopvers
+    {
+        font-size: 16px;
+        display: block;
+        line-height: 140%;
+        margin-bottom: 8px;
+    }
+}
+
